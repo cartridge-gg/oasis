@@ -26,6 +26,9 @@
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
   },
+  "dependencies": {
+    "rust-wasm": "file:./rust-wasm/pkg"
+  },
   "devDependencies": {
     "@builder.io/qwik": "^1.5.1",
     "@builder.io/qwik-city": "^1.5.1",
@@ -39,6 +42,7 @@
     "typescript": "5.3.3",
     "undici": "*",
     "vite": "^5.1.4",
+    "vite-plugin-wasm": "^3.3.0",
     "vite-tsconfig-paths": "^4.2.1"
   }
 }

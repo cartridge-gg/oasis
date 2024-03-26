@@ -11,6 +11,23 @@ crate-type = ["cdylib", "rlib"]
 default = ["console_error_panic_hook"]
 
 [dependencies]
+ark-ff = "0.4"
+ark-poly = "0.4"
+ark-serialize = "0.4"
+ark-std = "0.4"
+ministark = { git = "https://github.com/andrewmilson/ministark" }
+ministark-gpu = { git = "https://github.com/andrewmilson/ministark" }
+num-bigint = "0.4"
+num-traits = "0.2"
+pollster = "0.3.0"
+rayon = { version = "1.5", optional = true }
+sandstorm = { git = "https://github.com/cartridge-gg/sandstorm" }
+sandstorm-binary = { git = "https://github.com/cartridge-gg/sandstorm" }
+sandstorm-layouts = { git = "https://github.com/cartridge-gg/sandstorm" }
+serde_json = "1.0"
+sha2 = "0.10"
+sha3 = "0.10"
+structopt = "0.3"
 wasm-bindgen = "0.2.84"
 
 # The `console_error_panic_hook` crate provides better debugging of panics by

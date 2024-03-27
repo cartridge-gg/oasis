@@ -3,6 +3,8 @@ mod utils;
 
 use wasm_bindgen::prelude::*;
 
+pub use prover::run_prover;
+
 #[wasm_bindgen]
 extern "C" {
     #[wasm_bindgen(js_namespace = console)]
